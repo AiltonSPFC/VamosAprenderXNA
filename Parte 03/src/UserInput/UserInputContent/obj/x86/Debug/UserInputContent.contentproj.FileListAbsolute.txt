@@ -1,0 +1,1 @@
+C:\git\VamosAprenderXNA\Parte 03\src\UserInput\UserInputContent\obj\x86\Debug\ResolveAssemblyReference.cache
