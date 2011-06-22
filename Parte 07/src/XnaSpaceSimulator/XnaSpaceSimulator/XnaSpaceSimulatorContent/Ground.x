@@ -1,19 +1,19 @@
 xof 0303txt 0032
 template Vector {
- <3d82ab5e-62da-11cf-ab39-0020af71e433XnaSpaceSimulator
+ <3d82ab5e-62da-11cf-ab39-0020af71e433>
  FLOAT x;
  FLOAT y;
  FLOAT z;
 }
 
 template MeshFace {
- <3d82ab5f-62da-11cf-ab39-0020af71e433XnaSpaceSimulator
+ <3d82ab5f-62da-11cf-ab39-0020af71e433>
  DWORD nFaceVertexIndices;
  array DWORD faceVertexIndices[nFaceVertexIndices];
 }
 
 template Mesh {
- <3d82ab44-62da-11cf-ab39-0020af71e433XnaSpaceSimulator
+ <3d82ab44-62da-11cf-ab39-0020af71e433>
  DWORD nVertices;
  array Vector vertices[nVertices];
  DWORD nFaces;
@@ -22,13 +22,13 @@ template Mesh {
 }
 
 template Coords2d {
- <f6f23f44-7686-11cf-8f52-0040333594a3XnaSpaceSimulator
+ <f6f23f44-7686-11cf-8f52-0040333594a3>
  FLOAT u;
  FLOAT v;
 }
 
 template MeshTextureCoords {
- <f6f23f40-7686-11cf-8f52-0040333594a3XnaSpaceSimulator
+ <f6f23f40-7686-11cf-8f52-0040333594a3>
  DWORD nTextureCoords;
  array Coords2d textureCoords[nTextureCoords];
 }

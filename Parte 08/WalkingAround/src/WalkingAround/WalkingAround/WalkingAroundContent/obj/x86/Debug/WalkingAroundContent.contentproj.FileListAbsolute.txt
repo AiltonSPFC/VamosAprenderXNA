@@ -1,0 +1,1 @@
+C:\git\VamosAprenderXNA\Parte 08\WalkingAround\src\WalkingAround\WalkingAround\WalkingAroundContent\obj\x86\Debug\ResolveAssemblyReference.cache
