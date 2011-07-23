@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline" xmlns:Framework="Microsoft.Xna.Framework" xmlns:Processors="Microsoft.Xna.Framework.Content.Pipeline.Processors">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Checker.bmp</Source>
+      <Name>Checker</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\git\VamosAprenderXNA\Parte 09\src\XnaSpaceSimulator\XnaSpaceSimulator\XnaSpaceSimulator\bin\x86\Debug\Content\Checker.xnb</Output>
+      <Time>2011-06-20T15:39:56.3611248-03:00</Time>
+    </Item>
+    <Item>
+      <Source>spaceship.x</Source>
+      <Name>spaceship</Name>
+      <Importer>XImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\git\VamosAprenderXNA\Parte 09\src\XnaSpaceSimulator\XnaSpaceSimulator\XnaSpaceSimulator\bin\x86\Debug\Content\spaceship.xnb</Output>
+      <Time>2011-06-20T10:31:21.5247699-03:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\spaceship_0.xml</Key>
+        <Value>2011-07-23T18:31:51.1734822-03:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Ground.x</Source>
+      <Name>Ground</Name>
+      <Importer>XImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\git\VamosAprenderXNA\Parte 09\src\XnaSpaceSimulator\XnaSpaceSimulator\XnaSpaceSimulator\bin\x86\Debug\Content\Ground.xnb</Output>
+      <Time>2011-06-22T08:56:05.7333952-03:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Ground_0.xml</Key>
+        <Value>2011-07-23T18:31:51.4124959-03:00</Value>
+      </Dependency>
+      <Request>C:\git\VamosAprenderXNA\Parte 09\src\XnaSpaceSimulator\XnaSpaceSimulator\XnaSpaceSimulator\bin\x86\Debug\Content\Checker_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>spaceship.x</Source>
+      <Importer>XImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\spaceship_0.xml</Output>
+      <Time>2011-06-20T10:31:21.5247699-03:00</Time>
+    </Item>
+    <Item>
+      <Source>Ground.x</Source>
+      <Importer>XImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Ground_0.xml</Output>
+      <Time>2011-06-22T08:56:05.7333952-03:00</Time>
+    </Item>
+    <Item>
+      <Source>Checker.bmp</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\git\VamosAprenderXNA\Parte 09\src\XnaSpaceSimulator\XnaSpaceSimulator\XnaSpaceSimulator\bin\x86\Debug\Content\Checker_0.xnb</Output>
+      <Time>2011-06-20T15:39:56.3611248-03:00</Time>
+    </Item>
+    <Item>
+      <Source>DemoEffect1.fx</Source>
+      <Name>DemoEffect1</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\git\VamosAprenderXNA\Parte 09\src\XnaSpaceSimulator\XnaSpaceSimulator\XnaSpaceSimulator\bin\x86\Debug\Content\DemoEffect1.xnb</Output>
+      <Time>2011-07-23T19:06:48.7574572-03:00</Time>
+    </Item>
+    <Item>
+      <Source>TextureMapper.fx</Source>
+      <Name>TextureMapper</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\git\VamosAprenderXNA\Parte 09\src\XnaSpaceSimulator\XnaSpaceSimulator\XnaSpaceSimulator\bin\x86\Debug\Content\TextureMapper.xnb</Output>
+      <Time>2011-07-23T20:04:18.0827473-03:00</Time>
+    </Item>
+    <Item>
+      <Source>GrayScaleTextureMapper.fx</Source>
+      <Name>GrayScaleTextureMapper</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\git\VamosAprenderXNA\Parte 09\src\XnaSpaceSimulator\XnaSpaceSimulator\XnaSpaceSimulator\bin\x86\Debug\Content\GrayScaleTextureMapper.xnb</Output>
+      <Time>2011-07-23T20:24:36.9124604-03:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>HiDef</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\git\VamosAprenderXNA\Parte 09\src\XnaSpaceSimulator\XnaSpaceSimulator\XnaSpaceSimulatorContent\</RootDirectory>
+      <LoggerRootDirectory>C:\git\VamosAprenderXNA\Parte 09\src\XnaSpaceSimulator\XnaSpaceSimulator\XnaSpaceSimulator\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\git\VamosAprenderXNA\Parte 09\src\XnaSpaceSimulator\XnaSpaceSimulator\XnaSpaceSimulatorContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\git\VamosAprenderXNA\Parte 09\src\XnaSpaceSimulator\XnaSpaceSimulator\XnaSpaceSimulator\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2010-08-23T12:41:18-03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2010-08-23T12:41:18-03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2010-09-17T09:30:27.8419039-03:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>
