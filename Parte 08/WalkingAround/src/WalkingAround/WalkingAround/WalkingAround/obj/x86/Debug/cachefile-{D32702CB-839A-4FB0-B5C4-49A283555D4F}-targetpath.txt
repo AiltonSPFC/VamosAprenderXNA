@@ -1,6 +1,0 @@
-Content\Checker.xnb
-Content\Ground.xnb
-Content\Checker_0.xnb
-Content\grass.xnb
-Content\grass_ground.xnb
-Content\grass_0.xnb
