@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>spaceship.x</Source>
+      <Name>spaceship</Name>
+      <Importer>XImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\git\VamosAprenderXNA\Parte 12\src\XnaSpaceSimulator\XnaSpaceSimulator\XnaSpaceSimulator\bin\x86\Debug\Content\spaceship.xnb</Output>
+      <Time>2011-06-20T10:31:21.5247699-03:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\spaceship_0.xml</Key>
+        <Value>2011-07-26T16:22:45.2591915-03:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>spaceship.x</Source>
+      <Importer>XImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\spaceship_0.xml</Output>
+      <Time>2011-06-20T10:31:21.5247699-03:00</Time>
+    </Item>
+    <Item>
+      <Source>heightmap1.bmp</Source>
+      <Name>heightmap1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\git\VamosAprenderXNA\Parte 12\src\XnaSpaceSimulator\XnaSpaceSimulator\XnaSpaceSimulator\bin\x86\Debug\Content\heightmap1.xnb</Output>
+      <Time>2011-07-27T16:49:21.9909938-03:00</Time>
+    </Item>
+    <Item>
+      <Source>heightmap2.png</Source>
+      <Name>heightmap2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\git\VamosAprenderXNA\Parte 12\src\XnaSpaceSimulator\XnaSpaceSimulator\XnaSpaceSimulator\bin\x86\Debug\Content\heightmap2.xnb</Output>
+      <Time>2011-08-03T10:54:05.5766573-03:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>HiDef</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\git\VamosAprenderXNA\Parte 12\src\XnaSpaceSimulator\XnaSpaceSimulator\XnaSpaceSimulatorContent\</RootDirectory>
+      <LoggerRootDirectory>C:\git\VamosAprenderXNA\Parte 12\src\XnaSpaceSimulator\XnaSpaceSimulator\XnaSpaceSimulator\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\git\VamosAprenderXNA\Parte 12\src\XnaSpaceSimulator\XnaSpaceSimulator\XnaSpaceSimulatorContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\git\VamosAprenderXNA\Parte 12\src\XnaSpaceSimulator\XnaSpaceSimulator\XnaSpaceSimulator\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2010-08-23T12:41:18-03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2010-08-23T12:41:18-03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2010-09-17T09:30:27.8419039-03:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>
