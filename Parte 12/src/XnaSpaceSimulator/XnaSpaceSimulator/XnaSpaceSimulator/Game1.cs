@@ -166,7 +166,7 @@ namespace XnaSpaceSimulator
 
         protected override void Draw(GameTime gameTime)
         {
-            GraphicsDevice.Clear(Color.Black);
+            GraphicsDevice.Clear(Color.CornflowerBlue);
 
             foreach (IDrawableModel model in models)
                 model.Draw(camera.View, camera.Projection);
