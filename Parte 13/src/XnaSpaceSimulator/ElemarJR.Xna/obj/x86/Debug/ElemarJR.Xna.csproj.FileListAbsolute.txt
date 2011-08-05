@@ -1,0 +1,12 @@
+C:\git\VamosAprenderXNA\Parte 12\src\XnaSpaceSimulator\ElemarJR.Xna\bin\x86\Debug\ElemarJR.Xna.dll
+C:\git\VamosAprenderXNA\Parte 12\src\XnaSpaceSimulator\ElemarJR.Xna\bin\x86\Debug\ElemarJR.Xna.pdb
+C:\git\VamosAprenderXNA\Parte 12\src\XnaSpaceSimulator\ElemarJR.Xna\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\git\VamosAprenderXNA\Parte 12\src\XnaSpaceSimulator\ElemarJR.Xna\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\git\VamosAprenderXNA\Parte 12\src\XnaSpaceSimulator\ElemarJR.Xna\obj\x86\Debug\ElemarJR.Xna.dll
+C:\git\VamosAprenderXNA\Parte 12\src\XnaSpaceSimulator\ElemarJR.Xna\obj\x86\Debug\ElemarJR.Xna.pdb
+C:\git\VamosAprenderXNA\Parte 13\src\XnaSpaceSimulator\ElemarJR.Xna\bin\x86\Debug\ElemarJR.Xna.dll
+C:\git\VamosAprenderXNA\Parte 13\src\XnaSpaceSimulator\ElemarJR.Xna\bin\x86\Debug\ElemarJR.Xna.pdb
+C:\git\VamosAprenderXNA\Parte 13\src\XnaSpaceSimulator\ElemarJR.Xna\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\git\VamosAprenderXNA\Parte 13\src\XnaSpaceSimulator\ElemarJR.Xna\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\git\VamosAprenderXNA\Parte 13\src\XnaSpaceSimulator\ElemarJR.Xna\obj\x86\Debug\ElemarJR.Xna.dll
+C:\git\VamosAprenderXNA\Parte 13\src\XnaSpaceSimulator\ElemarJR.Xna\obj\x86\Debug\ElemarJR.Xna.pdb
