@@ -1,0 +1,2 @@
+C:\git\VamosAprenderXNA\Parte 07\src\XnaSpaceSimulator\XnaSpaceSimulator\XnaSpaceSimulatorContent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\git\VamosAprenderXNA\Parte 14\src\XnaSpaceSimulator\XnaSpaceSimulator\XnaSpaceSimulatorContent\obj\x86\Debug\ResolveAssemblyReference.cache
