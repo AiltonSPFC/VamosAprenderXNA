@@ -15,14 +15,11 @@ using ElemarJR.Xna.Environmental;
 
 namespace XnaSpaceSimulator
 {
-    /// <summary>
-    /// This is the main type for your game
-    /// </summary>
     public class Game1 : Microsoft.Xna.Framework.Game
     {
         GraphicsDeviceManager graphics;
 
-        public readonly List<IDrawableModel> Models = new List<IDrawableModel>();
+        readonly List<IDrawableModel> Models = new List<IDrawableModel>();
         Spaceship spaceship1;
         Spaceship spaceship2;
         Terrain ground;
@@ -121,6 +118,8 @@ namespace XnaSpaceSimulator
 
         protected override void Draw(GameTime gameTime)
         {
+            GraphicsDevice.Clear(Color.CornflowerBlue);
+
             DrawScene(spaceship1.Camera);
             DrawScene(spaceship2.Camera);
             
