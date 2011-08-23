@@ -40,12 +40,13 @@ namespace XnaSpaceSimulator
                 Position = new Vector3(0, 400, 0),
                 Scale = new Vector3(50f),
                 BaseRotation = new Vector3(0, MathHelper.Pi, 0)
-            };
+            }
+            .SetEffect(Content.Load<Effect>("TextureMapper"));
             
             models.Add(spaceship);
 
             var ground = new GameModel(Content.Load<Model>("ground"))
-                .SetEffect(Content.Load<Effect>("GrayScaleTextureMapper"));
+                .SetEffect(Content.Load<Effect>("TextureMapper"));
 
             models.Add(ground);
 

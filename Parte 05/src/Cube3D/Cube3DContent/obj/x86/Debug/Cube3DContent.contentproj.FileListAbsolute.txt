@@ -1,0 +1,1 @@
+C:\git\VamosAprenderXNA\Parte 05\src\Cube3D\Cube3DContent\obj\x86\Debug\ResolveAssemblyReference.cache

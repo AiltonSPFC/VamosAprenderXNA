@@ -1,0 +1,1 @@
+C:\git\VamosAprenderXNA\Parte 04\src\Xna3DMadness\Xna3DMadnessContent\obj\x86\Debug\ResolveAssemblyReference.cache

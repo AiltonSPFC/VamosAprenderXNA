@@ -16,7 +16,7 @@ namespace XnaSpaceSimulator
     {
         public ChaseCamera Camera { get; private set; }
         public GameModel Model { get; private set; }
-        
+
         public Keys Left { get; set; }
         public Keys Right { get; set; }
         public Keys Forward { get; set; }
@@ -25,8 +25,8 @@ namespace XnaSpaceSimulator
         public Keys Down { get; set; }
 
         public Spaceship(
-            Game game, 
-            GameModel model, 
+            Game game,
+            GameModel model,
             Viewport viewport
             )
             : base(game)

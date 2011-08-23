@@ -122,7 +122,7 @@ namespace XnaSpaceSimulator
 
             DrawScene(spaceship1.Camera);
             DrawScene(spaceship2.Camera);
-            
+
             base.Draw(gameTime);
         }
 

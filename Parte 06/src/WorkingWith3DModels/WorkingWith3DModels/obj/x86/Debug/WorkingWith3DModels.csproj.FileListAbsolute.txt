@@ -1,0 +1,7 @@
+C:\git\VamosAprenderXNA\Parte 06\src\WorkingWith3DModels\WorkingWith3DModels\bin\x86\Debug\Content\Models\spaceship.xnb
+C:\git\VamosAprenderXNA\Parte 06\src\WorkingWith3DModels\WorkingWith3DModels\bin\x86\Debug\WorkingWith3DModels.exe
+C:\git\VamosAprenderXNA\Parte 06\src\WorkingWith3DModels\WorkingWith3DModels\bin\x86\Debug\WorkingWith3DModels.pdb
+C:\git\VamosAprenderXNA\Parte 06\src\WorkingWith3DModels\WorkingWith3DModels\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\git\VamosAprenderXNA\Parte 06\src\WorkingWith3DModels\WorkingWith3DModels\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\git\VamosAprenderXNA\Parte 06\src\WorkingWith3DModels\WorkingWith3DModels\obj\x86\Debug\WorkingWith3DModels.exe
+C:\git\VamosAprenderXNA\Parte 06\src\WorkingWith3DModels\WorkingWith3DModels\obj\x86\Debug\WorkingWith3DModels.pdb

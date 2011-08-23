@@ -1,0 +1,6 @@
+C:\git\VamosAprenderXNA\Parte 05\src\Cube3D\Cube3D\bin\x86\Debug\Cube3D.exe
+C:\git\VamosAprenderXNA\Parte 05\src\Cube3D\Cube3D\bin\x86\Debug\Cube3D.pdb
+C:\git\VamosAprenderXNA\Parte 05\src\Cube3D\Cube3D\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\git\VamosAprenderXNA\Parte 05\src\Cube3D\Cube3D\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\git\VamosAprenderXNA\Parte 05\src\Cube3D\Cube3D\obj\x86\Debug\Cube3D.exe
+C:\git\VamosAprenderXNA\Parte 05\src\Cube3D\Cube3D\obj\x86\Debug\Cube3D.pdb

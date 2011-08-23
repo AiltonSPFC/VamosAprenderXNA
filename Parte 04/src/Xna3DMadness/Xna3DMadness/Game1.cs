@@ -58,7 +58,6 @@ namespace Xna3DMadness
             camera = new Camera(this, new Vector3(0, 0, 5));
             Components.Add(camera);
 
-            // colors
             //verts = new[]
             //    {
             //        new VertexPositionColor(new Vector3(0, 1, 0), Color.Blue),
@@ -79,16 +78,16 @@ namespace Xna3DMadness
             new VertexPositionTexture(new Vector3(-1, 1, 0), new Vector2(0,0)),
             new VertexPositionTexture(new Vector3(1 , 1, 0), new Vector2(1,0)),
             new VertexPositionTexture(new Vector3(-1,-1, 0), new Vector2(0,1)),
-            new VertexPositionTexture(new Vector3( 1,-1, 0), new Vector2(1,1))
+            new VertexPositionTexture(new Vector3( 1,-1, 0), new Vector2(0,1))
         };
 
-            // vertex
-            //vertexBuffer = new VertexBuffer(GraphicsDevice, typeof(VertexPositionColor),
-            //    verts.Length, BufferUsage.None);
+            
+           //vertexBuffer = new VertexBuffer(GraphicsDevice, typeof(VertexPositionColor),
+           //    verts.Length, BufferUsage.None);
 
             vertexBuffer = new VertexBuffer(GraphicsDevice, typeof(VertexPositionTexture),
                 verts.Length, BufferUsage.None);
-            vertexBuffer.SetData(verts);
+           vertexBuffer.SetData(verts);
 
             // effect
             effect = new BasicEffect(GraphicsDevice);
@@ -145,6 +144,9 @@ namespace Xna3DMadness
             foreach (var pass in effect.CurrentTechnique.Passes)
             {
                 pass.Apply();
+                //GraphicsDevice.DrawUserPrimitives
+                //    (PrimitiveType.TriangleStrip, verts, 0, 1);
+
                 GraphicsDevice.DrawUserPrimitives
                     (PrimitiveType.TriangleStrip, verts, 0, 2);
             }
