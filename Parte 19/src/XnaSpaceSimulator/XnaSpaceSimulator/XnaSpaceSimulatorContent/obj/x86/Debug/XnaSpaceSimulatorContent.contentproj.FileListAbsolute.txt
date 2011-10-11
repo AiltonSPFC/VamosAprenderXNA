@@ -1,0 +1,8 @@
+C:\git\VamosAprenderXNA\Parte 07\src\XnaSpaceSimulator\XnaSpaceSimulator\XnaSpaceSimulatorContent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\git\VamosAprenderXNA\Parte 08\src\XnaSpaceSimulator\XnaSpaceSimulator\XnaSpaceSimulatorContent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\git\VamosAprenderXNA\Parte 09\src\XnaSpaceSimulator\XnaSpaceSimulator\XnaSpaceSimulatorContent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\git\VamosAprenderXNA\Parte 10\src\XnaSpaceSimulator\XnaSpaceSimulator\XnaSpaceSimulatorContent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\git\VamosAprenderXNA\Parte 11\src\XnaSpaceSimulator\XnaSpaceSimulator\XnaSpaceSimulatorContent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\git\VamosAprenderXNA\Parte 12\src\XnaSpaceSimulator\XnaSpaceSimulator\XnaSpaceSimulatorContent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\git\VamosAprenderXNA\Parte 13\src\XnaSpaceSimulator\XnaSpaceSimulator\XnaSpaceSimulatorContent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\git\VamosAprenderXNA\Parte 19\src\XnaSpaceSimulator\XnaSpaceSimulator\XnaSpaceSimulatorContent\obj\x86\Debug\ResolveAssemblyReference.cache

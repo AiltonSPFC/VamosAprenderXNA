@@ -27,8 +27,7 @@ namespace Xna3DMadness
         Matrix worldRotation = Matrix.Identity;
         Matrix worldScale = Matrix.Identity;
 
-        //VertexPositionColor[] verts;
-        VertexPositionTexture[] verts;
+        VertexPositionColor[] verts;
         VertexBuffer vertexBuffer;
         BasicEffect effect;
 
@@ -48,8 +47,6 @@ namespace Xna3DMadness
             // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
 
-            texture = Content.Load<Texture2D>(@"Textures\Lighthouse");
-
             RasterizerState rs = new RasterizerState();
             rs.CullMode = CullMode.None;
             GraphicsDevice.RasterizerState = rs;
@@ -58,32 +55,16 @@ namespace Xna3DMadness
             camera = new Camera(this, new Vector3(0, 0, 5));
             Components.Add(camera);
 
-            //verts = new[]
-            //    {
-            //        new VertexPositionColor(new Vector3(0, 1, 0), Color.Blue),
-            //        new VertexPositionColor(new Vector3(1, -1, 0), Color.Red),
-            //        new VertexPositionColor(new Vector3(-1, -1, 0), Color.Green)
-            //    };
-
-            //verts = new[]
-            //{
-            //    new VertexPositionColor(new Vector3(-1, 1, 0), Color.Blue),
-            //    new VertexPositionColor(new Vector3(1 , 1, 0), Color.Yellow),
-            //    new VertexPositionColor(new Vector3(-1,-1, 0), Color.Green),
-            //    new VertexPositionColor(new Vector3( 1,-1, 0), Color.Red),
-            //};
-
             verts = new[]
-        {
-            new VertexPositionTexture(new Vector3(-1, 1, 0), new Vector2(0,0)),
-            new VertexPositionTexture(new Vector3(1 , 1, 0), new Vector2(1,0)),
-            new VertexPositionTexture(new Vector3(-1,-1, 0), new Vector2(0,1)),
-            new VertexPositionTexture(new Vector3( 1,-1, 0), new Vector2(0,1))
-        };
+                {
+                    new VertexPositionColor(new Vector3(0, 1, 0), Color.Blue),
+                    new VertexPositionColor(new Vector3(1, -1, 0), Color.Red),
+                    new VertexPositionColor(new Vector3(-1, -1, 0), Color.Green)
+                };
 
             
-           //vertexBuffer = new VertexBuffer(GraphicsDevice, typeof(VertexPositionColor),
-           //    verts.Length, BufferUsage.None);
+           vertexBuffer = new VertexBuffer(GraphicsDevice, typeof(VertexPositionColor),
+               verts.Length, BufferUsage.None);
 
             vertexBuffer = new VertexBuffer(GraphicsDevice, typeof(VertexPositionTexture),
                 verts.Length, BufferUsage.None);
@@ -137,18 +118,13 @@ namespace Xna3DMadness
             effect.World = worldScale * worldRotation * worldTranslation;
             effect.View = camera.View;
             effect.Projection = camera.Projection;
-            //effect.VertexColorEnabled = true;
-            effect.Texture = texture;
-            effect.TextureEnabled = true;
-
+            effect.VertexColorEnabled = true;
+            
             foreach (var pass in effect.CurrentTechnique.Passes)
             {
                 pass.Apply();
-                //GraphicsDevice.DrawUserPrimitives
-                //    (PrimitiveType.TriangleStrip, verts, 0, 1);
-
                 GraphicsDevice.DrawUserPrimitives
-                    (PrimitiveType.TriangleStrip, verts, 0, 2);
+                    (PrimitiveType.TriangleStrip, verts, 0, 1);
             }
 
             base.Draw(gameTime);

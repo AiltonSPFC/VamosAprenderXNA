@@ -149,6 +149,7 @@ namespace XnaSpaceSimulator
                 if (keyState.IsKeyDown(Keys.F))
                     chase.PositionOffset += Vector3.Down * 10;
 
+
                 chase.Move(
                     spaceship.Position,
                     spaceship.Rotation

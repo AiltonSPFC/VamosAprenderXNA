@@ -25,7 +25,7 @@ VertexShaderOutput VertexShaderFunction(VertexShaderInput input)
 
 float4 PixelShaderFunction(VertexShaderOutput input) : COLOR0
 {
-    return float4(1, 0, 0, 1);
+    return float4(0, 0, 1, 1);
 }
 
 technique Technique1

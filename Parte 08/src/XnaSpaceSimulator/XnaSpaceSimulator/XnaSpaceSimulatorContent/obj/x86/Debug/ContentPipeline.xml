@@ -44,7 +44,7 @@
       <Processor>EffectProcessor</Processor>
       <Options>None</Options>
       <Output>C:\git\VamosAprenderXNA\Parte 08\src\XnaSpaceSimulator\XnaSpaceSimulator\XnaSpaceSimulator\bin\x86\Debug\Content\DemoEffect1.xnb</Output>
-      <Time>2011-07-23T17:24:48.1153765-03:00</Time>
+      <Time>2011-09-29T19:29:07.678-03:00</Time>
     </Item>
     <Item>
       <Source>spaceship.x</Source>

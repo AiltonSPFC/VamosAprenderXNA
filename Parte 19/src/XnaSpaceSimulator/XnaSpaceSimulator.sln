@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XnaSpaceSimulator", "XnaSpaceSimulator\XnaSpaceSimulator\XnaSpaceSimulator.csproj", "{40716145-CECC-488A-BC37-38976FB78859}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XnaSpaceSimulatorContent", "XnaSpaceSimulator\XnaSpaceSimulatorContent\XnaSpaceSimulatorContent.contentproj", "{132083CE-16C6-4962-B0BF-5595A56FAD3F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElemarJR.Xna", "ElemarJR.Xna\ElemarJR.Xna.csproj", "{42386FFA-8BC6-4757-84D2-AD35DA3AB368}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|Windows Phone = Debug|Windows Phone
+		Debug|x86 = Debug|x86
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|Windows Phone = Release|Windows Phone
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{40716145-CECC-488A-BC37-38976FB78859}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{40716145-CECC-488A-BC37-38976FB78859}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{40716145-CECC-488A-BC37-38976FB78859}.Debug|Windows Phone.ActiveCfg = Debug|x86
+		{40716145-CECC-488A-BC37-38976FB78859}.Debug|Windows Phone.Build.0 = Debug|x86
+		{40716145-CECC-488A-BC37-38976FB78859}.Debug|x86.ActiveCfg = Debug|x86
+		{40716145-CECC-488A-BC37-38976FB78859}.Debug|x86.Build.0 = Debug|x86
+		{40716145-CECC-488A-BC37-38976FB78859}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{40716145-CECC-488A-BC37-38976FB78859}.Release|Mixed Platforms.Build.0 = Release|x86
+		{40716145-CECC-488A-BC37-38976FB78859}.Release|Windows Phone.ActiveCfg = Release|x86
+		{40716145-CECC-488A-BC37-38976FB78859}.Release|Windows Phone.Build.0 = Release|x86
+		{40716145-CECC-488A-BC37-38976FB78859}.Release|x86.ActiveCfg = Release|x86
+		{40716145-CECC-488A-BC37-38976FB78859}.Release|x86.Build.0 = Release|x86
+		{132083CE-16C6-4962-B0BF-5595A56FAD3F}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{132083CE-16C6-4962-B0BF-5595A56FAD3F}.Debug|Windows Phone.ActiveCfg = Debug|x86
+		{132083CE-16C6-4962-B0BF-5595A56FAD3F}.Debug|x86.ActiveCfg = Debug|x86
+		{132083CE-16C6-4962-B0BF-5595A56FAD3F}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{132083CE-16C6-4962-B0BF-5595A56FAD3F}.Release|Windows Phone.ActiveCfg = Release|x86
+		{132083CE-16C6-4962-B0BF-5595A56FAD3F}.Release|x86.ActiveCfg = Release|x86
+		{42386FFA-8BC6-4757-84D2-AD35DA3AB368}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{42386FFA-8BC6-4757-84D2-AD35DA3AB368}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{42386FFA-8BC6-4757-84D2-AD35DA3AB368}.Debug|Windows Phone.ActiveCfg = Debug|x86
+		{42386FFA-8BC6-4757-84D2-AD35DA3AB368}.Debug|x86.ActiveCfg = Debug|x86
+		{42386FFA-8BC6-4757-84D2-AD35DA3AB368}.Debug|x86.Build.0 = Debug|x86
+		{42386FFA-8BC6-4757-84D2-AD35DA3AB368}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{42386FFA-8BC6-4757-84D2-AD35DA3AB368}.Release|Mixed Platforms.Build.0 = Release|x86
+		{42386FFA-8BC6-4757-84D2-AD35DA3AB368}.Release|Windows Phone.ActiveCfg = Release|x86
+		{42386FFA-8BC6-4757-84D2-AD35DA3AB368}.Release|x86.ActiveCfg = Release|x86
+		{42386FFA-8BC6-4757-84D2-AD35DA3AB368}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

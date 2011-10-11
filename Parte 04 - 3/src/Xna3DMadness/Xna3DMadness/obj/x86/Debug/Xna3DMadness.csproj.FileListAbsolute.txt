@@ -1,0 +1,14 @@
+C:\git\VamosAprenderXNA\Parte 04\src\Xna3DMadness\Xna3DMadness\bin\x86\Debug\Content\Textures\Lighthouse.xnb
+C:\git\VamosAprenderXNA\Parte 04\src\Xna3DMadness\Xna3DMadness\bin\x86\Debug\Xna3DMadness.exe
+C:\git\VamosAprenderXNA\Parte 04\src\Xna3DMadness\Xna3DMadness\bin\x86\Debug\Xna3DMadness.pdb
+C:\git\VamosAprenderXNA\Parte 04\src\Xna3DMadness\Xna3DMadness\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\git\VamosAprenderXNA\Parte 04\src\Xna3DMadness\Xna3DMadness\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\git\VamosAprenderXNA\Parte 04\src\Xna3DMadness\Xna3DMadness\obj\x86\Debug\Xna3DMadness.exe
+C:\git\VamosAprenderXNA\Parte 04\src\Xna3DMadness\Xna3DMadness\obj\x86\Debug\Xna3DMadness.pdb
+C:\git\VamosAprenderXNA\Parte 04 - 3\src\Xna3DMadness\Xna3DMadness\bin\x86\Debug\Content\Textures\Lighthouse.xnb
+C:\git\VamosAprenderXNA\Parte 04 - 3\src\Xna3DMadness\Xna3DMadness\bin\x86\Debug\Xna3DMadness.exe
+C:\git\VamosAprenderXNA\Parte 04 - 3\src\Xna3DMadness\Xna3DMadness\bin\x86\Debug\Xna3DMadness.pdb
+C:\git\VamosAprenderXNA\Parte 04 - 3\src\Xna3DMadness\Xna3DMadness\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\git\VamosAprenderXNA\Parte 04 - 3\src\Xna3DMadness\Xna3DMadness\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\git\VamosAprenderXNA\Parte 04 - 3\src\Xna3DMadness\Xna3DMadness\obj\x86\Debug\Xna3DMadness.exe
+C:\git\VamosAprenderXNA\Parte 04 - 3\src\Xna3DMadness\Xna3DMadness\obj\x86\Debug\Xna3DMadness.pdb

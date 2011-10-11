@@ -42,7 +42,7 @@ namespace XnaSpaceSimulator
         Effect postProcessingEffect;
         protected override void LoadContent()
         {
-            postProcessingEffect = Content.Load<Effect>(@"PostProcessing\BW");
+            postProcessingEffect = Content.Load<Effect>(@"PostProcessing\GrayScale");
             var device = graphics.GraphicsDevice;
             target = new RenderTarget2D(device,
                 device.Viewport.Width,
