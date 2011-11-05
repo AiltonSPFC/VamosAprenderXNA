@@ -62,7 +62,7 @@ namespace XnaSpaceSimulator
             else
                 amount = MathHelper.Clamp(amount, 0f, 1f);
 
-            if (reversing) amount = 1 - amount;
+            if (this.AutoReverse && reversing) amount = 1 - amount;
 
             Position = Vector3.Lerp(this.StartPosition, this.EndPosition, amount);
             Rotation = Vector3.Lerp(this.StartRotation, this.EndRotation, amount);
